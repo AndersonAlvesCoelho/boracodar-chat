@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="top">
+        <div class="user-info">
+          <img
+            src="https://pbs.twimg.com/profile_images/1623112549532041219/BCz1Ow3g_400x400.jpg"
+            alt="Imagem de Perfil"
+          />
+
+          <div class="user-status">
+            <strong>Anderson Alves</strong>
+            <div class="status">Online</div>
+          </div>
+        </div>
+
+        <div class="close-chat">
+          <i class="ph-x"></i>
+        </div>
+      </div>
+
+      <div class="messages">
+        <div class="last-messages">Hoje 11:30</div>
+
+        <div class="message">
+          <div class="message-card">
+            <div class="message-top">Lero lero - 11:30</div>
+            <div class="message-body">
+              Evidentemente, o desafiador cenário globalizado possibilita uma
+              melhor visão global dos modos de operação convencionais.
+            </div>
+          </div>
+
+          <div class="message-card you">
+            <div class="message-top">Você - 11:30</div>
+            <div class="message-body">Desta maneira setorial.</div>
+          </div>
+
+          <div class="message-card">
+            <div class="message-top">Lero lero - 11:31</div>
+            <div class="message-body">
+              A nível organizacional, a crescente influência da mídia faz parte
+              de um processo de gerenciamento dos relacionamentos verticais
+              entre as hierarquias.
+            </div>
+          </div>
+
+          <div class="message-card you">
+            <div class="message-top">Você - 11:36</div>
+            <div class="message-body">
+              É claro que a mobilidade dos verificação do retorno esperado a
+              <strong>longo prazo</strong>.
+            </div>
+          </div>
+          <div class="message-card">
+            <div class="message-top">Lero lero - 11:30</div>
+            <div class="message-body">
+              Evidentemente, o desafiador cenário globalizado possibilita uma
+              melhor visão global dos modos de operação convencionais.
+            </div>
+          </div>
+
+          <div class="message-card you">
+            <div class="message-top">Você - 11:30</div>
+            <div class="message-body">Desta maneira setorial.</div>
+          </div>
+
+          <div class="message-card">
+            <div class="message-top">Lero lero - 11:31</div>
+            <div class="message-body">
+              A nível organizacional, a crescente influência da mídia faz parte
+              de um processo de gerenciamento dos relacionamentos verticais
+              entre as hierarquias.
+            </div>
+          </div>
+
+          <div class="message-card you">
+            <div class="message-top">Você - 11:36</div>
+            <div class="message-body">
+              É claro que a mobilidade dos verificação do retorno esperado a
+              <strong>longo prazo</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="bottom">
+        <input type="text" placeholder="Digite sua mensagem" />
+
+        <button><i class="ph-paper-plane-right"></i></button>
+      </form>
+    </div>
+
+
+
+
+    <script>
+      const message = document.querySelector('.message')
+      message.lastElementChild.scrollIntoView()
+
+    </script>
+  </body>
+</html>
